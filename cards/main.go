@@ -4,6 +4,7 @@ func main() {
 	cards := newDeck()
 	cards.shuffle()
 	cards.print()
+	new_arr := evenOrOdd()
 }
 
 //arrays in go are of two type one is array and the other is slice.
